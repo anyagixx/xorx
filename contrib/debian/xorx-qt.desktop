@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XORX
+Comment=XORX P2P Cryptocurrency
+Comment[fr]=XORX, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=XORX, eşten eşe kriptografik sanal para birimi
+Exec=xorx-qt %u
+Terminal=false
+Type=Application
+Icon=xorx128
+MimeType=x-scheme-handler/xorx;
+Categories=Office;Finance;

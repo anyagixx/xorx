@@ -1,0 +1,26 @@
+# /etc/conf.d/xorxd: config file for /etc/init.d/xorxd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/xorx/xorx.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/xorxd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xorxd.pid"
+
+# Where to write xorxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xorxd"
+
+# User and group to own xorxd process
+#BITCOIND_USER="xorx"
+#BITCOIND_GROUP="xorx"
+
+# Path to xorxd executable
+#BITCOIND_BIN="/usr/bin/xorxd"
+
+# Nice value to run xorxd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

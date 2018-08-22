@@ -1,0 +1,26 @@
+[Unit]
+Description=XORX's distributed currency daemon
+After=network.target
+
+[Service]
+User=xorx
+Group=xorx
+
+Type=forking
+PIDFile=/var/lib/xorxd/xorxd.pid
+
+ExecStart=/usr/bin/xorxd -daemon -pid=/var/lib/xorxd/xorxd.pid \
+          -conf=/etc/xorx/xorx.conf -datadir=/var/lib/xorxd
+
+ExecStop=-/usr/bin/xorx-cli -conf=/etc/xorx/xorx.conf \
+         -datadir=/var/lib/xorxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
