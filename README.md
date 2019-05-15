@@ -1,8 +1,6 @@
-#### Welcome to the EXPI coin repository.
-
 ![EXPI Logo](https://i.imgur.com/jJkSAsh.png)
 
-[Website](https://expi.tech) | [DISCORD](https://discord.gg/2wTsbjq) | [BITCOINTALK](https://bitcointalk.org/index.php?topic=5142574) | [WHITEPAPER](https://www.docdroid.net/TuJmos2/expiwp-v10.pdf) | [EXPLORER](https://explorer.expi.tech/)
+[WEBSITE](https://expi.tech) | [DISCORD](https://discord.gg/2wTsbjq) | [BITCOINTALK](https://bitcointalk.org/index.php?topic=5142574) | [WHITEPAPER](https://www.docdroid.net/TuJmos2/expiwp-v10.pdf) | [EXPLORER](https://explorer.expi.tech/)
 -------------|-------------|-------------|-------------|-------------
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F216k155%2Flux.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2F216k155%2Flux?ref=badge_shield) [![Build Status](https://travis-ci.org/216k155/lux.svg?branch=master)](https://travis-ci.org/216k155/lux) [![GitHub version](https://badge.fury.io/gh/216k155%2Flux.svg)](https://badge.fury.io/gh/216k155%2Flux.svg) [![HitCount](http://hits.dwyl.io/216k155/lux.svg)](http://hits.dwyl.io/216k155/lux)
