@@ -1,56 +1,46 @@
-### SearchCoin is a fork of [PIVX](https://github.com/PIVX-Project/PIVX) that forked [Dash](https://github.com/dashpay/dash) that forked [Bitcoin](https://github.com/bitcoin/bitcoinp)
+#### Welcome to the EXPI coin repository.
 
+![EXPI Logo](https://i.imgur.com/jJkSAsh.png)
 
-# SearchCoin Core integration/staging repository
+[Website](https://expi.tech) | [DISCORD](https://discord.gg/2wTsbjq) | [BITCOINTALK](https://bitcointalk.org/index.php?topic=5142574) | [WHITEPAPER](https://www.docdroid.net/TuJmos2/expiwp-v10.pdf) | [EXPLORER](https://explorer.expi.tech/)
+-------------|-------------|-------------|-------------|-------------
 
-
-SearchCoin is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
-- Anonymized transactions using zerocoin technology.
-- Fast transactions featuring guaranteed zero confirmation transactions, PIVX named it _SwiftX_.
-- Decentralized blockchain voting providing for consensus based advancement of the current Masternode
-  technology used to secure the network and provide the above features, each Masternode is secured
-  with a collateral of 20K SRCH.
-
-More information at [SearchCoin.srch](https://www.searchcoincoin.srch) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
-
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F216k155%2Flux.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2F216k155%2Flux?ref=badge_shield) [![Build Status](https://travis-ci.org/216k155/lux.svg?branch=master)](https://travis-ci.org/216k155/lux) [![GitHub version](https://badge.fury.io/gh/216k155%2Flux.svg)](https://badge.fury.io/gh/216k155%2Flux.svg) [![HitCount](http://hits.dwyl.io/216k155/lux.svg)](http://hits.dwyl.io/216k155/lux)
+<a href="https://discord.gg/27xFP5Y"><img src="https://discordapp.com/api/guilds/364500397999652866/embed.png" alt="Discord server" /></a> <a href="https://twitter.com/intent/follow?screen_name=LUX_COIN"><img src="https://img.shields.io/twitter/follow/LUX_COIN.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
 
 ### Coin Specs
 <table>
-<tr><td>Algo</td><td>Quark</td></tr>
-<tr><td>Block Time</td><td>120 Seconds</td></tr>
-<tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply </td><td>100,000,000 SRCH</td></tr>
-<tr><td>Premine</td><td>20,000,000 SRCH</td></tr>
+<tr><td>Ticker Symbol</td><td>EXPI</td></tr>
+<tr><td>Name</td><td>EXPI coin</td></tr>
+<tr><td>Algorithm</td><td>Quark</td></tr>
+<tr><td>Consensus Algo</td><td>PoS + MN</td></tr>
+<tr><td>POS/MN Ratio</td><td>15%/85%</td></tr>
+<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Total Supply</td><td>9,000,000</td></tr>
+<tr><td>Masternode Collateral</td><td>1,000 EXPI</td></tr>
+<tr><td>Maturity Time</td><td>24 blocks</td></tr>
+<tr><td>Min. Stake Age</td><td>8 hours</td></tr>
+<tr><td>Min. Stake Amount</td><td>100 EXPI</td></tr>
+<tr><td>Premine</td><td>90,000 EXPI</td></tr>
+<tr><td>RPC Port</td><td>14556</td></tr>
+<tr><td>Network Port</td><td>14555</td></tr>
 </table>
 
-
-### Reward Distribution
-
+### Block Rewards
 <table>
-<th colspan=4>PoW Phase</th>
-<tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
-<tr><td>1</td><td>20,000,000 SRCH</td><td>Initial Premine</td><td>0 Days</td></tr>
-<tr><td>2-200</td><td>100 SRCH</td><td rowspan=1>Open Mining</td><td rowspan=1> Approx 1 Day</td></tr>
-<tr><th colspan=4>PoS Phase</th></tr>
-<tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
-<tr><td>201-</td><td colspan=2>Masternodes: 75%</td><td>Stakers: 25%</td></tr>
-</table>
-
-### PoW Rewards Breakdown
-
-<table>
-<th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Miner</th>
-<tr><td>2-200</td><td>100 SRCH</td><td>0 SRCH</td><td100% (100 SRCH)</td><td100% (100 SRCH)</td></tr>
-</table>
-
-### PoS Rewards Breakdown
-
-<table>
-<th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
-<tr><td>Phase 1</td><td>201-135,000</td><td>100 SRCH</td><td>75% (75 SRCH)</td><td>25% (25 SRCH)</td></tr>
-<tr><td>Phase 2</td><td>135,001-390,000</td><td>80 SRCH</td><td>75% (60 SRCH)</td><td>25% (20 SRCH)</td></tr>
-<tr><td>Phase 3</td><td>390,001-800,000</td><td>50 SRCH</td><td>75% (37.5 SRCH)</td><td>25% (12.5 SRCH)</td></tr>
-<tr><td>Phase 4</td><td>800,001-1,500,000</td><td>20 SRCH</td><td>75% (15 SRCH)</td><td>25% (5 SRCH)</td></tr>
-<tr><td>Phase 5</td><td>1,500,001-2,660,026</td><td>10 SRCH</td><td>75% (7.5 SRCH)</td><td>25% (2.5 SRCH)</td></tr>
-
+<th>Block Height</th><th>Reward</th>
+<tr><td>801 - 20,000</td><td>0,75 EXPI</td>
+<tr><td>20,001 - 30,000</td><td>1 EXPI</td>
+<tr><td>30,001 - 40,000</td><td>1,25 EXPI</td>
+<tr><td>40,001 - 50,000</td><td>1,5 EXPI</td>
+<tr><td>50,001 - 60,000</td><td>1,75 EXPI</td>
+<tr><td>60,001 - 70,000</td><td>2 EXPI</td>
+<tr><td>70,001 - 80,000</td><td>1,75 EXPI</td>
+<tr><td>80,001 - 90,000</td><td>1,5 EXPI</td>
+<tr><td>90,001 - 100,000</td><td>1,25 EXPI</td>
+<tr><td>100,001 - 115,000</td><td>1 EXPI</td>
+<tr><td>115,001 - 130,000</td><td>0,75 EXPI</td>
+<tr><td>130,000 - 200,000</td><td>0,5 EXPI</td>
+<tr><td>200,001 - 2,500,000</td><td>0,3 EXPI</td>
+<tr><td>2,500,001 - 9,000,000</td><td>0,2 EXPI</td>
 </table>
