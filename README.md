@@ -3,7 +3,7 @@
 [WEBSITE](https://expi.tech) | [DISCORD](https://discord.gg/2wTsbjq) | [BITCOINTALK](https://bitcointalk.org/index.php?topic=5142574) | [WHITEPAPER](https://www.docdroid.net/TuJmos2/expiwp-v10.pdf) | [EXPLORER](https://explorer.expi.tech/)
 -------------|-------------|-------------|-------------|-------------
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F216k155%2Flux.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2F216k155%2Flux?ref=badge_shield) [![Build Status](https://travis-ci.org/216k155/lux.svg?branch=master)](https://travis-ci.org/216k155/lux) [![GitHub version](https://badge.fury.io/gh/216k155%2Flux.svg)](https://badge.fury.io/gh/216k155%2Flux.svg) [![HitCount](http://hits.dwyl.io/216k155/lux.svg)](http://hits.dwyl.io/216k155/lux)
+[![Build Status](https://travis-ci.org/216k155/lux.svg?branch=master)](https://travis-ci.org/216k155/lux) [![GitHub version](https://badge.fury.io/gh/216k155%2Flux.svg)](https://badge.fury.io/gh/216k155%2Flux.svg) [![HitCount](http://hits.dwyl.io/216k155/lux.svg)](http://hits.dwyl.io/216k155/lux)
 <a href="https://discord.gg/27xFP5Y"><img src="https://discordapp.com/api/guilds/364500397999652866/embed.png" alt="Discord server" /></a> <a href="https://twitter.com/intent/follow?screen_name=LUX_COIN"><img src="https://img.shields.io/twitter/follow/LUX_COIN.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
 
 ### Coin Specs
